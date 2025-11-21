@@ -1,0 +1,4 @@
+- Follow standard TypeScript/React conventions.
+- Keep code modular and documented where helpful.
+- Ensure README stays up to date with setup and run instructions.
+- After committing, generate a PR message using the `make_pr` tool.

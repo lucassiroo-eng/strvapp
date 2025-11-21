@@ -1,0 +1,16 @@
+{
+  "name": "stride-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stride Hub monorepo with Expo mobile app and Express backend",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm --workspace apps/mobile start",
+    "dev:backend": "npm --workspace apps/backend run dev",
+    "lint": "npm --workspace apps/backend run lint && npm --workspace apps/mobile run lint",
+    "prepare": "husky install"
+  }
+}

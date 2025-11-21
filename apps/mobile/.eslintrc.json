@@ -1,0 +1,6 @@
+{
+  "extends": ["universe/native"],
+  "rules": {
+    "no-unused-vars": "warn"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Stride Hub",
+    "slug": "stride-hub",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "stridehub",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "backendUrl": "${EXPO_PUBLIC_BACKEND_URL:-http://localhost:4000}"
+    }
+  }
+}
