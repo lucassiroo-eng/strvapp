@@ -1,0 +1,15 @@
+{
+  "name": "@stride-hub/shared",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.4.5"
+  }
+}
